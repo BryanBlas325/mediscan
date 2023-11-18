@@ -25,5 +25,5 @@ public class BotData implements Serializable {
     @JoinColumn(name="user_id", nullable=false)
 	private Usuario user;
 	
-	private LocalTime createAt;
+	private String createAt;
 }
