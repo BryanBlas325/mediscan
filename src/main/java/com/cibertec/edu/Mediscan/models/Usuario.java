@@ -27,5 +27,6 @@ public class Usuario implements Serializable {
 	private String estado;
 	
 	@OneToMany(mappedBy="user")
+	@Transient
 	private Set<BotData>botData;
 }
